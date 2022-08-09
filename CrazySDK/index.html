@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>{{{ PRODUCT_NAME }}}| Crazy Games</title>
+  <title>CrazySDK-5.6.1 | Crazy Games</title>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
@@ -19,28 +19,22 @@
     }
     var options = {
       author: "Unity Developer",
-      gameName: "{{{ PRODUCT_NAME }}}",
-      gameSlug: slugify("{{{ PRODUCT_NAME }}}"),
+      gameName: "CrazySDK-5.6.1",
       gameLink: "https://www.crazygames.com/game/your-game-here",
+      gameSlug: slugify("CrazySDK-5.6.1"),
       allowFullscreen: true,
       locale: "en_US",
-      loader: "unity2020",
+      loader: "5.6.x",
       loaderOptions: {
-        unityLoaderUrl: "Build/{{{ LOADER_FILENAME }}}",
-        unityConfigOptions: {
-          "dataUrl": "Build/{{{ DATA_FILENAME }}}",
-          "frameworkUrl": "Build/{{{ FRAMEWORK_FILENAME }}}",
-          "codeUrl": "Build/{{{ CODE_FILENAME }}}",
-          "streamingAssetsUrl": "StreamingAssets",
-        }
+        "moduleJsonUrl": "Build/8115beb709221755dee36e0bff02fdf1.json",
+        "unityLoaderUrl": "Build/20986a4044eaa8551db6be07233cc1d9.js"
       },
       category: "UnitySDK",
       categoryLink: "https://www.crazygames.com",
-      thumbnail: "https://images.crazygames.com/upcoming.png",
+	    thumbnail: "https://images.crazygames.com/upcoming.png",
       gameStatus: "published",
       dollarRate: 1,
       sdkDebug: true,
-      gameLink: 'https://www.crazygames.com/testgame',
       forceTestAds: true,
     };
 
